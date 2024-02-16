@@ -13,7 +13,6 @@ class MyApp extends StatelessWidget {
       title: 'Widget Biodata',
       theme: ThemeData(
         colorScheme: ColorScheme.fromSwatch(primarySwatch: Colors.purple),
-        // useMaterial3: true, // Tidak diperlukan karena ini untuk Material 3
       ),
       home: const MyHomePage(title: 'My Biodata'),
     );
